@@ -43,11 +43,16 @@
 }
 
 #boneca {
+    transition: all 150ms ease-in-out;
     align-self: center;
     justify-self: center;
     height: 500px;
     grid-row: 1/9;
     grid-column: 2/8;
+}
+
+#boneca:hover{
+    transform: scale(1.02, 1.02);
 }
 
 #folha2 {
@@ -57,7 +62,6 @@
     grid-row: 4/9;
     grid-column: 4/9;
 }
-
 
 header {
     text-align: center;
